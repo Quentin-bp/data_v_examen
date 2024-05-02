@@ -1,0 +1,105 @@
+.main_container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    /*
+    display: flex;
+    justify-content:center;
+    */
+
+    display: grid;
+    justify-items: center;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--beige);
+}
+.section {
+    width: 65%;
+    text-align: center;
+    font-size: 25px;
+    ;
+    margin-top: 100px
+}
+
+.title_story, #analyse-de-la-litt-rature {
+    text-align: center;
+    width: 75%;
+    border-bottom: 1px solid brown;
+    padding-bottom: 35px;
+    margin-bottom: 100px;
+    color: var(--dark);
+    font-size:2em;
+}
+
+.mental_card {
+    max-width: 80%;
+}
+
+.woman_repart{
+    max-width: 1300px;
+}
+
+.section.sex_repart {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+.block-container.css-91z34k.egzxvld4{  /* page container */ 
+    padding: unset;
+    max-width: unset;
+    height: 100%;
+}
+
+div{
+    font-family:"Nunito", sans-serif;
+}
+
+.e16nr0p31{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.element-container button {
+    width: 380px !important;
+    height: 50px;
+    top: -380px !important;
+    left: 40% !important;
+}
+.row-widget.stSelectbox, .row-widget.stTextInput {
+    width: 50% !important;
+    margin: auto;
+
+}
+.row-widget.stSelectbox .row-widget.stTextInput p{
+    color : var(--dark) !important ;
+    font-size : 18px;
+}
+
+p{
+    color : var(--dark) !important ;
+    font-size : 18px; 
+    margin : auto;
+    text-align : center
+}
+
+.margin_top{
+    margin-top: 20px;;
+}
+
+.etr89bj1{
+    margin:auto !important
+}
+.etr89bj1 img{
+    width :60% !important;
+    margin:auto !important
+}
+
+footer{
+    display: none;
+}

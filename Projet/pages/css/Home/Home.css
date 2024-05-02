@@ -1,0 +1,42 @@
+input.checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.main_container{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 50px;
+  
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--beige);
+}
+
+.mochi_picture{
+    /*
+    position: absolute;
+    left : 3%;
+    top : 55%;
+    width: 450px;
+    */
+    position: absolute;
+    left: -75%;
+    width: 450px;
+    margin-top: 0%;
+}
+
+.mochi_slap_picture{
+    position: absolute;
+    right : -70%;
+    width: 300px;
+    margin-top: -520px;
+}
+
+footer{
+    display: none;
+}

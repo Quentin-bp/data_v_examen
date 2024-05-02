@@ -1,0 +1,42 @@
+.image_main{
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.border_image{
+    border : 1px solid black;
+    text-align : center;
+    border-radius: 15px;
+}
+.image_container{
+    text-align:  center;
+    max-width: 80%;
+    margin-top: 10%;
+    margin: auto;
+    color: var(--dark);
+}
+
+.image_container img{
+    width: 100%;
+}
+.image_container .legend_image{
+    margin-bottom : 25px
+}
+
+.image_container.no_space_top{
+    margin-top: 0%;
+}
+
+.legend_image{
+    font-size:16px;
+    white-space: pre-wrap;
+
+}
+
+.little{
+    width: 25% !important;
+}
+.medium_1{
+    width: 35% !important;
+}

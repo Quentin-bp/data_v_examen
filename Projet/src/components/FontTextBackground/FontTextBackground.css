@@ -1,0 +1,36 @@
+.font_text_main {
+
+    position: relative;
+    text-align: center;
+    margin-bottom: 200px;
+    color: var(--dark);
+}
+
+.font_text_main .text_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    line-height: 55px;
+    white-space: pre-wrap;
+    max-width: 600px;
+
+}
+.font_text_main .text_container .title{
+    font-size: 40px;
+    display: flex;
+}
+
+.font_text_main img {
+    border: 5px solid brown;
+    border-radius: 15px;
+    transition: all .3s;
+    max-width: 65%;
+}
+
+.font_text_main img:hover {
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.4);
+    box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.4);
+}

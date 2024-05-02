@@ -1,0 +1,92 @@
+
+:root {
+    /*color-scheme: light dark;*/
+    --white: #f4f4f4ff;
+    --dark: #434656;
+    --light-dark: #527aa3ff;
+    --secondary: #65abf61a;
+    --light-gray: #f1f5f9;
+    --light-secondary : #F5F9FF;
+    --gray: silver;
+    --main: #0e7aedff;
+    --pink: #F0386B;
+    --pink-secondary: rgba(240, 56, 107, 0.15);
+    --green: #06A77D;
+    --yellow : #fbc02d;
+    --analytics: #26394cff;
+
+    --beige : #FED9BF;
+    --beige_medium: #F7B68A;
+    --beige_dark : #FCA367;
+}
+
+body,
+html, 
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    color: var(--dark);
+    scroll-behavior: smooth;
+}
+
+header{
+    opacity: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#root {
+    flex-grow: 1;
+    background: white;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 10px;
+    margin-left: 5px;
+}
+ 
+.scrollbar::-webkit-scrollbar-track {
+    background-color: var(--white);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.scrollbar.white::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: var(--main); 
+}
+
+
+section{
+    display: none;
+}
